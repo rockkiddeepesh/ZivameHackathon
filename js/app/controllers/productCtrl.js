@@ -2,6 +2,17 @@
     var controllers = {};
 
     controllers.productCtrl = function($scope, $stateParams) {
+        var getProductInfo = function() {
+            $scope.product = { "_id" : { "$oid" : "54675381841baffdad6ffe23" }, "prod_id" : "0001", "prod_name" : "Nike Capri Sneakers", "price" : "2050", "discount" : "0", "inventory" : { "size" : [ { "sizeId" : "size7", "color" : [ { "colorId" : "blue", "piecesLeft" : 8 } ] }, { "sizeId" : "size8", "color" : [ { "colorId" : "blue", "piecesLeft" : 9 } ] }, { "sizeId" : "size9", "color" : [ { "colorId" : "blue", "piecesLeft" : 2 } ] }, { "sizeId" : "size11", "color" : [ { "colorId" : "blue", "piecesLeft" : 10 } ] } ] }, "Catogory" : "cat1", "Brand" : "brand1", "Prod_Desc" : "Trendy and comfy, Nike has designed these Limnos Cat sneakers that you can slip into for most casual outings and flaunt your cool attitude. With print detailing to give them a stylish touch, these laced shoes crafted in bright hues pep up your outfit. Wear them with slim jeans and printed tees or casual shirts." };
+        };
+
+        if($stateParams.productName) { /*get the details of a product*/
+            $scope.isProductsListing = false;
+            //getProductInfo();
+        }
+        else { /*get the list of products for a particular category*/
+            $scope.isProductsListing = true;
+        }
         $scope.categoryName = $stateParams.categoryName;
         $scope.products = [
             { "_id" : { "$oid" : "54675381841baffdad6ffe23" }, "prod_id" : "0001", "prod_name" : "Nike Capri Sneakers", "price" : "2050", "discount" : "0", "inventory" : { "size" : [ { "sizeId" : "size7", "color" : [ { "colorId" : "blue", "piecesLeft" : 8 } ] }, { "sizeId" : "size8", "color" : [ { "colorId" : "blue", "piecesLeft" : 9 } ] }, { "sizeId" : "size9", "color" : [ { "colorId" : "blue", "piecesLeft" : 2 } ] }, { "sizeId" : "size11", "color" : [ { "colorId" : "blue", "piecesLeft" : 10 } ] } ] }, "Catogory" : "cat1", "Brand" : "brand1", "Prod_Desc" : "Trendy and comfy, Nike has designed these Limnos Cat sneakers that you can slip into for most casual outings and flaunt your cool attitude. With print detailing to give them a stylish touch, these laced shoes crafted in bright hues pep up your outfit. Wear them with slim jeans and printed tees or casual shirts." },
@@ -39,8 +50,8 @@
         ];
 
         $scope.filterObj = {
-            filterSelectText : "CLEAR ALL",
-            selectedFilterId : null
+            selectedFilterId : null,
+            filtersClicked: false
         };
 
         $scope.colors = [
@@ -50,13 +61,13 @@
         ];
 
         $scope.chooseFilterCategory = function(event) {
-           $scope.filterObj.filterSelectText = "BACK";
             $scope.filterObj.selectedFilterId = event.target.id;
         };
 
         $scope.applyFilters = function() {
-            
-        }
+            //Apply filters here ...
+            $scope.filterObj.filtersClicked = false;
+        };
     };
     app.controller(controllers);
 })();

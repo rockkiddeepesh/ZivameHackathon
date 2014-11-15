@@ -18,7 +18,7 @@ http.createServer(function (req, res) {
             db.close();
         });
 
-        //Declare Sucess
+        //Declare Success
 
         console.dir("Called FindOne");
     });

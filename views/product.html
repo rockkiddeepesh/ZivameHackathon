@@ -1,66 +1,86 @@
 <div class="body-container">
-    <div ng-hide="filtersClicked">
-        <section class="center bold">
-            <h3 ng-bind="categoryName"></h3>
-        </section>
+    <div ng-hide="!isProductsListing" style="overflow: hidden;">
+        <div ng-hide="filterObj.filtersClicked">
+            <section class="center bold">
+                <h3 ng-bind="categoryName"></h3>
+            </section>
 
-        <div class="filters-text-container" ng-click="filtersClicked=true">
-            <div class="filters">
-                <span>FILTERS</span>
+            <div class="filters-text-container" ng-click="filterObj.filtersClicked=true">
+                <div class="filters">
+                    <span>FILTERS</span>
+                </div>
             </div>
-        </div>
 
-        <div ng-repeat="product in products" class="product" ng-click="listProducts($index);">
-            <img src="img/shoe-delete.jpeg" />
-            <div class="center" ng-bind="product.prod_name"></div>
-            <div>
+            <div ng-repeat="product in products" class="product" ng-click="getProductInfo($index);">
+                <img src="img/shoe-delete.jpeg"/>
+
+                <div class="center" ng-bind="product.prod_name"></div>
+                <div>
                 <span class="bold pull-left">
                     Rs. <span ng-bind="product.price"></span>
                 </span>
-                <span class="pull-right discount-highlight" ng-if="product.discount>0" >
+                <span class="pull-right discount-highlight" ng-if="product.discount>0">
                     <span ng-bind="product.discount"></span>% off
                 </span>
+                </div>
             </div>
         </div>
+        <div ng-show="filterObj.filtersClicked">
+            <section class="filters-container">
+                <div class="filter-options">
+                    <span ng-click="filterObj.filtersClicked=false">CANCEL</span>
+                    <span ng-click="applyFilters();">DONE</span>
+                </div>
+                <ul class="filter-categories" ng-click="chooseFilterCategory($event);">
+                    <li id="brand">BRAND</li>
+                    <li id="color">COLOR</li>
+                    <li id="size">SIZE</li>
+                    <li id="price">PRICE</li>
+                </ul>
+
+                <div ng-switch="filterObj.selectedFilterId">
+                    <div ng-switch-when="brand">
+                        <ul class="filter-categories">
+                            <li ng-repeat="item in brands">
+                                <label>
+                                    <input type="checkbox" ng-value="item._id"/>
+                                    <span ng-bind="item.brand_name"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div ng-switch-when="color">
+                        <ul class="filter-categories">
+                            <li ng-repeat="item in colors">
+                                <label>
+                                    <input type="checkbox" ng-value="item._id"/>
+                                    <span ng-bind="item.color_name"></span>
+
+                                    <span class="pull-right"
+                                          style="border:1px solid #000;background-color:{{item.color_hex}}"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
     </div>
-    <div ng-show="filtersClicked">
-        <section class="filters-container">
-            <div class="filter-options">
-                <span ng-bind="filterObj.filterSelectText">CLEAR ALL</span>
-                <span ng-click="applyFilters();">DONE</span>
-            </div>
-            <ul class="filter-categories" ng-click="chooseFilterCategory($event);">
-                <li id="brand">BRAND</li>
-                <li id="color">COLOR</li>
-                <li id="size">SIZE</li>
-                <li id="price">PRICE</li>
-            </ul>
+    <div ng-hide="isProductsListing">
+        <section class="product-image">
+            <img id="main-image"/>
 
-            <div ng-switch="filterObj.selectedFilterId">
-                <div ng-switch-when="brand">
-                    <ul class="filter-categories">
-                        <li ng-repeat="item in brands">
-                            <label>
-                                <input type="checkbox" ng-value="item._id" />
-                                <span ng-bind="item.brand_name"></span>
-                            </label>
-                        </li>
-                    </ul>
-                </div>
-                <div ng-switch-when="color">
-                    <ul class="filter-categories">
-                        <li ng-repeat="item in colors">
-                            <label >
-                                <input type="checkbox" ng-value="item._id" />
-                                <span ng-bind="item.color_name"></span>
+        </section>
 
-                                <span class="pull-right" style="border:1px solid #000;background-color:{{item.color_hex}}"></span>
-                            </label>
-                        </li>
-                    </ul>
-                </div>
+        <section class="product-color">
+            Color :
+            <div style="width:38px;height:38px;background-color:#FEF380">
             </div>
         </section>
 
+        <section class="product-size">
+
+        </section>
     </div>
 </div>

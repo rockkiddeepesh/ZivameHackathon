@@ -2,17 +2,37 @@
 <html ng-app="app">
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <link rel="stylesheet" href="css/ext/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app/main.css" />
+    <link rel="stylesheet" href="css/app/home.css" />
+    <link rel="stylesheet" href="css/app/category.css" />
+    <link rel="stylesheet" href="css/app/product.css" />
+    <title>Zivame Hackathon Shoe Mobile Store</title>
 </head>
 <body ng-controller="appCtrl">
-    {{data}}
+    <div class="header">
+        <!--<span class="menu">MENU</span>-->
+        <div class="title">
+            <img src="img/logo.png" style="width:40px;height: 40px;">
+            TeamZ Shoe Store
+        </div>
 
+    </div>
+    <div ui-view="main-view">
+    </div>
     <!--External files-->
     <script src="js/ext/jquery.min.js"></script>
     <script src="js/ext/angular.js"></script>
     <script src="js/ext/router.js"></script>
+    <script src="js/ext/bootstrap.min.js"></script>
 
     <!--App files-->
     <script src="js/app/app.js"></script>
+    <script src="js/app/routes/router.js"></script>
+    <script src="js/app/controllers/homeCtrl1.js"></script>
+    <script src="js/app/directives/directives.js"></script>
+    <script src="js/app/controllers/categoryCtrl.js"></script>
+    <script src="js/app/controllers/productCtrl.js"></script>
+    <script src="js/app/controllers/itemCtrl.js"></script>
 </body>
 </html>

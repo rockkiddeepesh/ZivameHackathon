@@ -14,11 +14,11 @@ http.createServer(function (req, res) {
 
             res.writeHead(200, {'Content-Type': 'text/plain'});
             res.end(JSON.stringify(doc));
-            // Cloese the db
+            // Close the db
             db.close();
         });
 
-//Declare Sucess
+        //Declare Sucess
 
         console.dir("Called FindOne");
     });

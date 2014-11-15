@@ -1,35 +1,424 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="047acea1-622a-41af-b9e9-d124d3a2ff7d" name="Default" comment="Creating structure">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel/Slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel/Slide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel/Slide3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/boy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel/studded-converse.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/women.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ext/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ext/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app/category.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/controllers/categoryCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/directives/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/controllers/homeCtrl1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/controllers/itemCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/app/product.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/product.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/controllers/productCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/app.js" afterPath="$PROJECT_DIR$/js/app/app.js" />
+    <list default="true" id="047acea1-622a-41af-b9e9-d124d3a2ff7d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/win32/ia32/bson.node" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/win32/x64/bson.node" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/img/gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/hugo.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/hugo.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/hugo.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine_favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/img/logo-mongodb-header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/navigation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font/octicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font/octicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font/octicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/share/powered-by-hugo-long.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/share/powered-by-hugo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/shoe-delete.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/simple_100_document_toArray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/simple_100_document_toArray_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/.dntrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/.gitmodules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Admin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/AggregationCursor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/prettify/Apache-License-2.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/prettify/Apache-License-2.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Binary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/BulkWriteResult.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Code.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Collection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Cursor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/DBRef.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Db.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Double.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/GridStore.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/GridStoreStream.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/HPstyles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Logger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Long.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/MIT.LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/MaxKey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/MinKey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/MongoClient.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Mongos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/ObjectID.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/OrderedBulkOperation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/requirejs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/ReadPreference.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/ReplSet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Server.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Symbol.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/Timestamp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/UnorderedBulkOperation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/WriteConcernError.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/WriteError.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/admin.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/aggregation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/aggregation_cursor.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/aggregation_cursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/appveyor.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/base64.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/base64.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/base64.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/base64.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/base_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/binary.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/binary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/binary_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/binding.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/binding.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/build/binding.sln.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/binding.sln.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/build/binding.sln" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/binding.sln" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/styles/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/styles/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/bson.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/bson.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/browser_build/bson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/bson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/build/bson.vcproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/bson_new.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/build_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/builderror.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/builderror.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/chunk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/code.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/collection.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/command_cursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/commands.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/common.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/batch/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/build/config.gypi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/config.gypi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_pool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/connection_utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/cursor.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/cursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/cursorstream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/db.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/db_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/db_ref.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/db_ref.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/delete_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/double.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/double.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/external-CoreCursor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/external-Cursor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/external-Duplex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/external-Readable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/float_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/geo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/get_more_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/gleak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/grid_store.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/gridstore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/ha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/highlight.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/fonts/hugo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/hugofont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/include_dirs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api-docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/articles/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/articles/node_knockout_article_1/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/articles/node_knockout_article_2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/articles/node_knockout_article_3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/community/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/community/contributing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/community/mailing-list/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/doc/contributing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/doc/installing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/doc/license/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/doc/release-notes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/license/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/meta/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/meta/changes-from-1.0/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/meta/contributing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/meta/license/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/meta/release-notes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/overview/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/overview/installing/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/overview/introduction/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/overview/quickstart/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/release-notes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/aggregation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/connecting/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/crud_operations/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/gridfs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/logging/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/streams/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/urls/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api-docs/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/articles/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/community/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/meta/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/overview/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/tutorials/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/insert_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/instantclick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/styles/jaguar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/styles/jaguar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/tools/jasmine-1.1.0/jasmine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/jquery-2.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/jquery.scrollTo.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/build/kerberos.vcproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberos_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos_sspi.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/kerberos_sspi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/kerberos_tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/kerberos_win32_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberosgss.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/kerberosgss.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/kill_cursor_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/linenumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/linenumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/livereload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/logger.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/long.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/long.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/max_key.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/max_key.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/min_key.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/min_key.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/mongo_client.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/mongo_client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/auth_processes/mongodb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_gssapi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_plain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_scram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_sspi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/auth/mongodb_x509.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/mongos.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/mongos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/monokai_sublime.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/nan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/objectid.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/objectid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font/octicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/ordered.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/batch/ordered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/owl.theme.default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/browser_build/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/node_modules/nan/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/requirejs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/strategies/ping_strategy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/styles/prettify-jsdoc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/styles/prettify-jsdoc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/styles/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/styles/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/query_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/r.js.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/requirejs/bin/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/read_preference.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/read_preference.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/gridfs/readstream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/repl_set_state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/replset.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/requirejs/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/scope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_buffer_descriptor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/win32/security_buffer_descriptor_tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/win32/security_buffer_tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_context.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/wrappers/security_credentials.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/test/win32/security_credentials_tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/server.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server_capabilities.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/shared.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/simple_100_document_toArray.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/simple_protected_method_bench.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/simple_public_method_bench.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/sitemap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/sspi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/repl_set/strategies/statistics_strategy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/style-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/symbol.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/inherits/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/timestamp.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/lib/bson/timestamp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/scripts/underscore-min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/scripts/underscore-min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/api/unordered.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection/batch/unordered.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/commands/update_command.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/url_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/public/assets/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/worker.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/worker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/kerberos/lib/win32/worker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/bson/ext/wscript" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app/home.css" afterPath="$PROJECT_DIR$/css/app/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/routes/router.js" afterPath="$PROJECT_DIR$/js/app/routes/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app/main.css" afterPath="$PROJECT_DIR$/css/app/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app/product.css" afterPath="$PROJECT_DIR$/css/app/product.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/product.html" afterPath="$PROJECT_DIR$/views/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/controllers/productCtrl.js" afterPath="$PROJECT_DIR$/js/app/controllers/productCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Website\ZivameHackathon\js\app\example.js" afterPath="$PROJECT_DIR$/js/app/server.js" />
     </list>
     <ignored path="ZivameHackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,63 +442,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="categoryCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/controllers/categoryCtrl.js">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
-              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/category.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="374">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state vertical-scroll-proportion="-4.387097" vertical-offset="568" max-vertical-offset="1562">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#label#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app/routes/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="220">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="productCtrl.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="productCtrl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app/controllers/productCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.32" vertical-offset="528" max-vertical-offset="1474">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itemCtrl.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app/controllers/itemCtrl.js">
+      <file leaf-file-name="product.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/app/product.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11743772" vertical-offset="0" max-vertical-offset="562">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="1672">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -134,15 +493,18 @@
         <option value="$PROJECT_DIR$/views/home.html" />
         <option value="$PROJECT_DIR$/js/app/controllers/product.js" />
         <option value="$PROJECT_DIR$/css/app/category.css" />
-        <option value="$PROJECT_DIR$/css/app/home.css" />
+        <option value="$PROJECT_DIR$/js/app/controllers/itemCtrl.js" />
+        <option value="$PROJECT_DIR$/js/app/routes/router.js" />
         <option value="$PROJECT_DIR$/views/category.html" />
+        <option value="$PROJECT_DIR$/js/app/example.js" />
+        <option value="$PROJECT_DIR$/js/app/controllers/categoryCtrl.js" />
+        <option value="$PROJECT_DIR$/js/app/server.js" />
         <option value="$PROJECT_DIR$/css/app/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/app/home.css" />
+        <option value="$PROJECT_DIR$/css/app/product.css" />
         <option value="$PROJECT_DIR$/views/product.html" />
-        <option value="$PROJECT_DIR$/js/app/controllers/categoryCtrl.js" />
-        <option value="$PROJECT_DIR$/js/app/routes/router.js" />
         <option value="$PROJECT_DIR$/js/app/controllers/productCtrl.js" />
-        <option value="$PROJECT_DIR$/js/app/controllers/itemCtrl.js" />
       </list>
     </option>
   </component>
@@ -261,28 +623,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZivameHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZivameHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -298,6 +638,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZivameHackathon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZivameHackathon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,11 +721,13 @@
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Website/ZivameHackathon/index.html" />
     <property name="recentsLimit" value="5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Website\ZivameHackathon\img\carousel" />
+      <recent name="D:\Website\ZivameHackathon\img\icons" />
       <recent name="D:\Website\ZivameHackathon\img" />
+      <recent name="D:\Website\ZivameHackathon\img\carousel" />
       <recent name="D:\Website\ZivameHackathon\css\ext" />
       <recent name="D:\Website\ZivameHackathon\js\ext" />
     </key>
@@ -445,26 +805,32 @@
       <option name="project" value="LOCAL" />
       <updated>1416035963634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating structure">
+      <created>1416066491830</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1416066491830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.4997367" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29431817" sideWeight="0.4997367" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.4997367" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.4997367" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21428572" sideWeight="0.4997367" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15481833" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="723" y="65" width="474" height="902" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15481833" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="723" y="65" width="474" height="902" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5002633" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.4997367" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284091" sideWeight="0.5002633" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284091" sideWeight="0.4997367" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -672,36 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/app/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/app/category.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.032259" vertical-offset="264" max-vertical-offset="946">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/app/product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -724,60 +1064,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/app/home.css">
+    <entry file="file://$PROJECT_DIR$/js/app/controllers/itemCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29774436" vertical-offset="198" max-vertical-offset="902">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="220">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/routes/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/controllers/categoryCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1188">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="374">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state vertical-scroll-proportion="-0.7096774" vertical-offset="0" max-vertical-offset="374">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/controllers/productCtrl.js">
+    <entry file="file://$PROJECT_DIR$/img/shoe-delete.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers/categoryCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/controllers/itemCtrl.js">
+    <entry file="file://$PROJECT_DIR$/js/app/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11743772" vertical-offset="0" max-vertical-offset="562">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/icons/navigation.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.774194" vertical-offset="0" max-vertical-offset="990">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1043" max-vertical-offset="1672">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.387097" vertical-offset="568" max-vertical-offset="1562">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#span#1;n#label#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#section#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/controllers/productCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32" vertical-offset="528" max-vertical-offset="1474">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding />
         </state>
       </provider>

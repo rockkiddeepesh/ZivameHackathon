@@ -1,0 +1,36 @@
+.box {
+
+    width: 50%;
+    /*margin: 0px 20px;*/
+    cursor: pointer;
+    background-repeat:  no-repeat;
+    background-size : contain;
+    margin: auto;
+    font-size: 14px;
+    float: left;
+}
+.box-male {
+    width: 100px;
+}
+.box-female {
+    width: 100px;
+    margin-top: 20px;
+}
+.box-container {
+    text-align: center;
+    margin: auto;
+}
+.cart-bar
+{
+    height: 50px;
+    clear: both;
+    overflow: hidden;
+}
+.carousel-inner img {
+    height: 200px;
+    background-size: contain;
+    width:100%
+}
+.title {
+    font-family: cursive;
+}

@@ -1,0 +1,17 @@
+.category-listing {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+.category-listing:hover {
+    background-color: #97d2ef;
+}
+.category-listing>div:first-child {
+    margin-top: 5px;
+}
+.category-listing>div {
+
+}

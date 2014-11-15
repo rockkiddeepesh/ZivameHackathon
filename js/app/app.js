@@ -1,5 +1,9 @@
-var app = angular.module("app", []);
+var app = angular.module("app", ["ui.router"]);
 
-app.controller("appCtrl", function($scope) {
-    $scope.data = "hi";
-});
+var appCtrl = function($scope) {
+    $scope.data = "App ctrl";
+};
+
+app.controller("appCtrl", appCtrl);
+
+

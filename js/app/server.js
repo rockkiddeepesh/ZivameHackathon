@@ -1,29 +1,35 @@
-var http = require('http');
-http.createServer(function (req, res) {
+var sys = require ('sys'),
+    url = require('url'),
+    http = require('http'),
+    qs = require('querystring');
+    http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     var MongoClient = require('mongodb').MongoClient;
 
     if(req.method=='POST')
     {
+
         var body='';
         req.on('data', function (data) {
             body +=data;
         });
         req.on('end',function()
         {
-            //var POST =  qs.parse(body);
-            var POST =  JSON.parse(body);
-            //console.log(JSON.parse(body));
 
+            var POST =  qs.parse(body);
+          // var POST =  JSON.parse(body);
+            //console.log(JSON.parse(body));
+           // res.end("hello");
             var gender = POST.gender;
             var categoryId = POST.categoryId;
             var productId = POST.productId;
-
-            if(typeof categoryId === "undefined" && typeof productId === "undefined")
+            res.write(gender);
+            res.end("hello");
+           /* if(typeof categoryId === "undefined" && typeof productId === "undefined")
             {
-                var query={"gender_id":gender};
+                var query={gender_id:gender};
                 MongoClient.connect('mongodb://127.0.0.1:27001/zivhack',function(err, db){
-                console.log(query);
+                    console.log(query);
                     if(err) throw err;
 
 
@@ -52,7 +58,7 @@ http.createServer(function (req, res) {
             }
             else if(categoryId)
             {
-               console.log(categoryId);
+                console.log(categoryId);
                 var query={"Catogory":categoryId};
                 console.log(query);
 
@@ -113,11 +119,11 @@ http.createServer(function (req, res) {
                 });
             }
 
-
+*/
         });
     }
 
 
 
-}).listen(1337, '127.0.0.1');
-console.log('Server running at http://127.0.0.1:1337/');
+}).listen(1339, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1339/');

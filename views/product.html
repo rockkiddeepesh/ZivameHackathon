@@ -13,7 +13,7 @@
         </div>
 
         <div ng-repeat="product in products" class="product" ng-click="getProductInfo($index);">
-            <img src="img/shoe-delete.jpeg"/>
+            <img src="img/site-images/gen1/{{product.Catogory}}/{{product.Brand}}/{{product.prod_id}}/{{product.inventory.size[0].color[0].colorId}}/image1.jpeg" />
 
             <div class="center" ng-bind="product.prod_name"></div>
             <div>

@@ -38,7 +38,7 @@
             }
         });
 */
-        $http.post('http://127.0.0.1:1337', {"gender":"gen1"}).
+        /*$http.post('http://127.0.0.1:1337', {"gender":"gen1"}).
             success(function(data, status, headers, config) {
                 // this callback will be called asynchronously
                 // when the response is available
@@ -48,20 +48,21 @@
                 // called asynchronously if an error occurs
                 // or server returns response with an error status.
                 alert("error in service callback");
-            });
+            });*/
 
-        $scope.categories = [
+        $scope.menCategories = [
             { "_id" : "cat1", "cat_name" : "Casual", "gender_id" : "gen1" },
-            { "_id" : "cat2", "cat_name" : "Ethnic", "gender_id" : "gen1" },
-            { "_id" : "cat3", "cat_name" : "Formal", "gender_id" : "gen1" },
-            { "_id" : "cat4", "cat_name" : "Sports", "gender_id" : "gen1" },
-            { "_id" : "cat5", "cat_name" : "Flats", "gender_id" : "gen2" },
-            { "_id" : "cat6", "cat_name" : "Heels", "gender_id" : "gen2" }
+            { "_id" : "cat2", "cat_name" : "Sports", "gender_id" : "gen1" }
         ];
-        $scope.gender = $stateParams.gender.toLowerCase()==="men"?"MEN'S FOOTWEAR" : "WOMEN'S FOOTWEAR";
+        $scope.womenCategories = [
+            { "_id" : "cat3", "cat_name" : "Flats", "gender_id" : "gen2" },
+            { "_id" : "cat4", "cat_name" : "Heels", "gender_id" : "gen2" }
+        ];
+        $scope.gender = $stateParams.gender;
+        $scope.genderText = $stateParams.gender.toLowerCase()==="men"?"MEN'S FOOTWEAR" : "WOMEN'S FOOTWEAR";
 
         $scope.listProducts = function(index) {
-            var category = $scope.categories[index];
+            var category = $scope.gender=="men"?$scope.menCategories[index] : $scope.womenCategories[index];
             $location.path("/category/" + $stateParams.gender + "/" + category._id + "/product/");
         };
     };

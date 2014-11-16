@@ -74,6 +74,9 @@
 {
 
 }
+.product img {
+    width: 100%;
+}
 .product-color {
     clear: both;
     cursor: pointer;
@@ -83,4 +86,11 @@
     clear: both;
     cursor: pointer;
     font-weight: bold;
+}
+.buy-now {
+    width: 100%;
+    text-align: center;
+    background-color: #E76A13;
+    clear:both;
+    margin-top: 20px;
 }

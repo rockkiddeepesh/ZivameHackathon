@@ -1,12 +1,16 @@
 <div class="body-container">
     <section class="center">
-        <h3 ng-bind="gender"></h3>
+        <h3 ng-bind="genderText"></h3>
     </section>
     <div>
         <img src="img/carousel/Slide3.jpg" style="width: 100%;">
     </div>
 
-    <div ng-repeat="category in categories" class="category-listing" ng-click="listProducts($index);">
+    <div ng-repeat="category in menCategories" ng-if="gender==='men'" class="category-listing" ng-click="listProducts($index);">
+        <div ng-bind="category.cat_name"></div>
+    </div>
+
+    <div ng-repeat="category in womenCategories" ng-if="gender==='women'" class="category-listing" ng-click="listProducts($index);">
         <div ng-bind="category.cat_name"></div>
     </div>
 </div>

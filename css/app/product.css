@@ -21,6 +21,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    cursor: pointer;
 }
 .filters {
     color: #fff;
@@ -72,4 +73,14 @@
 .product-image
 {
 
+}
+.product-color {
+    clear: both;
+    cursor: pointer;
+    font-weight: bold;
+}
+.product-size {
+    clear: both;
+    cursor: pointer;
+    font-weight: bold;
 }

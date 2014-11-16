@@ -14,8 +14,8 @@
 
         $scope.listProducts = function(index) {
             var category = $scope.categories[index];
-            $location.path("/category/" + category.cat_name + "/product/");
-        }
+            $location.path("/category/" + $stateParams.gender + "/" + category._id + "/product/");
+        };
     };
     app.controller(controllers);
 })();

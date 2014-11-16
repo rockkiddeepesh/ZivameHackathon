@@ -20,11 +20,20 @@
                 }
             })
             .state('product', {
-                url: "/category/:categoryName/product/:productName",
+                url: "/category/:gender/:categoryId/product/",
                 views: {
                     "main-view": {
                         templateUrl: "views/product.html",
                         controller: "productCtrl"
+                    }
+                }
+            })
+            .state('productId', {
+                url: "/category/:gender/:categoryId/product/:productId",
+                views: {
+                    "main-view": {
+                        templateUrl: "views/productId.html",
+                        controller: "productIdCtrl"
                     }
                 }
             });

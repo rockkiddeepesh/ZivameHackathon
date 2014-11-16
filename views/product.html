@@ -12,8 +12,22 @@
             </div>
         </div>
 
-        <div ng-repeat="product in products" class="product" ng-click="getProductInfo($index);">
+        <div ng-repeat="product in products" ng-show="$root.gender==='men'" class="product" ng-click="getProductInfo($index);">
             <img src="img/site-images/gen1/{{product.Catogory}}/{{product.Brand}}/{{product.prod_id}}/{{product.inventory.size[0].color[0].colorId}}/image1.jpeg" />
+
+            <div class="center" ng-bind="product.prod_name"></div>
+            <div>
+                <span class="bold pull-left">
+                    Rs. <span ng-bind="product.price"></span>
+                </span>
+                <span class="pull-right discount-highlight" ng-if="product.discount>0">
+                    <span ng-bind="product.discount"></span>% off
+                </span>
+            </div>
+        </div>
+
+        <div ng-repeat="product in femaleProducts" ng-show="$root.gender==='women'" class="product" ng-click="getProductInfo($index);">
+            <img src="img/site-images/gen2/{{product.Catogory}}/{{product.Brand}}/{{product.prod_id}}/{{product.inventory.size[0].color[0].colorId}}/image1.jpeg" />
 
             <div class="center" ng-bind="product.prod_name"></div>
             <div>

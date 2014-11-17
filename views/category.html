@@ -1,5 +1,5 @@
 <div class="body-container">
-    <section class="center">
+    <section class="center" style="text-align: middle;">
         <h3 ng-bind="genderText"></h3>
     </section>
     <div>
@@ -13,4 +13,6 @@
     <div ng-repeat="category in womenCategories" ng-if="gender==='women'" class="category-listing" ng-click="listProducts($index);">
         <div ng-bind="category.cat_name"></div>
     </div>
+
+
 </div>

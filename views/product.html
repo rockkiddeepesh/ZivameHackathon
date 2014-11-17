@@ -6,14 +6,25 @@
             <h3 ng-bind="categoryName"></h3>
         </section>
 
+        <section>
+            <div class="image-gallery">
+
+            </div>
+            <div class="image-snapshot">
+                <div>
+                    <img />
+                </div>
+            </div>
+        </section>
+
         <div class="filters-text-container" ng-click="filterObj.filtersClicked=true">
             <div class="filters">
                 <span>FILTERS</span>
             </div>
         </div>
 
-        <div ng-repeat="product in products" ng-show="$root.gender==='men'" class="product" ng-click="getProductInfo($index);">
-            <img src="img/site-images/gen1/{{product.Catogory}}/{{product.Brand}}/{{product.prod_id}}/{{product.inventory.size[0].color[0].colorId}}/image1.jpeg" />
+        <div ng-repeat="product in products" ng-show="$root.gender==='men'" class="product" ng-click="getProductInfo(product.prod_id);">
+            <img ng-src="img/site-images/gen1/{{product.Catogory}}/{{product.Brand}}/{{product.prod_id}}/{{product.inventory.size[0].color[0].colorId}}/image1.jpeg" />
 
             <div class="center" ng-bind="product.prod_name"></div>
             <div>
@@ -26,7 +37,7 @@
             </div>
         </div>
 
-        <div ng-repeat="product in femaleProducts" ng-show="$root.gender==='women'" class="product" ng-click="getProductInfo($index);">
+        <div ng-repeat="product in femaleProducts" ng-show="$root.gender==='women'" class="product" ng-click="getProductInfo(product.prod_id);">
             <img src="img/site-images/gen2/{{product.Catogory}}/{{product.Brand}}/{{product.prod_id}}/{{product.inventory.size[0].color[0].colorId}}/image1.jpeg" />
 
             <div class="center" ng-bind="product.prod_name"></div>
